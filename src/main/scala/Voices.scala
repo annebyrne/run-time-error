@@ -1,9 +1,9 @@
 object Anne {
   val truth: String = "assertion"
-  val anne = new GirlDeveloper(6)
+  val anne = new GirlDeveloper(1)
 
   def acceptedWisdom(author: GirlDeveloper, test: String) =
-    if (author.goodEnough) {println("Hello world! " * 1000000)}
+    if (author.goodEnough) { println("Hello world! " * 1000000) }
     else {
       author.internalised(test) match {
         case Some("confidence") => println("Hello world! " * 1000000)
